@@ -1,0 +1,164 @@
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+}
+/* Buttons */
+.Upper-background .signup-btn {
+    border: none;
+}
+.signup-btn {
+    background-color: #22A699;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;
+}
+/* footer */
+footer {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+footer span {
+    padding-bottom: 20px;
+}
+/* Pup Div */
+.pup-div div {
+    background-color: #F2BE22;
+    border-radius: 10px;
+}
+.pup-div div strong {
+    color: white;
+    font-size: 24px;
+}
+.pup-div div p {
+    color: white;
+    font-size: 16px;
+}
+.pup-div {
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pup-div div {
+    display: flex;
+}
+.pup-div div .signup-div {
+    display: flex;
+    flex-direction: column;
+}
+.pup-div div div {
+    margin: 50px;
+}
+/* quote */
+.quote-div {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quote-div div {
+    width: 50%;
+}
+.quote-div div span {
+    float: right;
+    font-size: 32px;
+    font-weight: bolder;
+}
+/* Images */
+.Upper-background .dog-img-header {
+    width: 300px;
+}
+.pup-img {
+    width: 20px !important;
+}
+/* Fact Images*/
+.pup-div {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+}
+.pup-div .dog-imgs {
+    display: flex;
+    justify-content: space-around;
+}
+.pup-div .info-header {
+    margin: 0px auto;
+}
+/* Navigation Flex for header */
+nav {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+    justify-content: space-between;
+}
+.nav-links {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.dog-div {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+.dog-main-div {
+    width: 35%;
+}
+.dog-main-div p {
+    margin: 20px;
+    margin-left: 0px;
+}
+/* Image Adjustments */
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Text Colors */
+.Upper-background .Logo {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+.Upper-background .dog-secondary {
+    font-size: 18px;
+    color: black;
+}
+.Upper-background .dog-main {
+    font-size: 48px;
+    color: black;
+    font-weight: bolder;
+}
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: black;
+}
+.quote-background .quote-div {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+    opacity: 0.6;
+}
+/* Backgrounds */
+.Upper-background {
+    background-color: white;
+}
+.quote-background {
+    background-color: bisque;
+}
