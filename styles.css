@@ -1,6 +1,9 @@
 * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0px;
+}
+body {
+    background-color: #BAD7E9;
 }
 /* Buttons */
 .Upper-background .signup-btn {
@@ -27,8 +30,11 @@ footer span {
 }
 /* Pup Div */
 .pup-div div {
-    background-color: #F2BE22;
-    border-radius: 10px;
+    background-color: #F24C3D;
+    padding: 8px 12px;
+    margin-bottom: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 .pup-div div strong {
     color: white;
@@ -37,17 +43,16 @@ footer span {
 .pup-div div p {
     color: white;
     font-size: 16px;
+    font-weight: lighter;
 }
 .pup-div {
     width: 70%;
     height: 300px;
-    margin: auto;
+    margin-top: 90px;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.pup-div div {
-    display: flex;
 }
 .pup-div div .signup-div {
     display: flex;
@@ -73,10 +78,13 @@ footer span {
 }
 /* Images */
 .Upper-background .dog-img-header {
-    width: 300px;
+    width: 600px;
 }
 .pup-img {
-    width: 20px !important;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* Fact Images*/
 .pup-div {
@@ -145,8 +153,8 @@ img {
 }
 .info-header {
     font-size: 36px;
-    font-weight: bolder;
-    color: black;
+    font-weight: 400;
+    color: white;
 }
 .quote-background .quote-div {
     font-size: 36px;
@@ -157,8 +165,9 @@ img {
 }
 /* Backgrounds */
 .Upper-background {
-    background-color: white;
+    background-color: #22A699;
 }
 .quote-background {
-    background-color: bisque;
+    background-color: #F2BE22;
+    margin-top: 100px;
 }
